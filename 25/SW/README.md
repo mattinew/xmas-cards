@@ -18,3 +18,10 @@ In this folder, all the details of the software project will be stored.
 - [ ] Evaluate animation with GIFs or in CSS.
 - [ ] Integrate a small terminal for interactivity.
 - [ ] Easter egg with prize if game in terminal is completed.
+
+#### Application references
++ [Halloween 2025 PAC MAN](https://phaser.io/news/2025/10/pac-man-halloween-2025-edition).
++ [PixelLab](https://www.pixellab.ai/): AI pixel art.
++ [Pixie Haus](https://pixie.haus/): AI pixel art.
++ [AI Pixel Art Generator](https://aipixelartgenerator.com/): AI pixel art.
++ [StockImg.ai](https://stockimg.ai/blog/design-and-creativity/how-to-generate-pixel-art-with-ai): AI pixel art.
