@@ -1,7 +1,7 @@
 # Hardware design
 In this folder, all the details of the hardware project will be stored.
 
-## Main idea: create a physical token showing a QR code that links to the Github page published from the SW folder.
+## Create a physical token showing a QR code that links to a Github page.
 
 - [ ] Create new repository folder and identify the link.
 - [ ] Create the QR code image with identified link.
