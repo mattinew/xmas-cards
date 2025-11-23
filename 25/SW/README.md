@@ -3,10 +3,10 @@ In this folder, all the details of the software project will be stored.
 
 ## Create a physical token showing a QR code that links to a Github page.
 
-- [ ] Create new repository folder.
-- [ ] Create a template app with HTML/CSS/JS and possible frameworks to test the overall flow.
-- [ ] Test Github page with a template landing screen.
-- [ ] Setup basic app and identify link.
+- [x] Create new repository folder.
+- [x] Create a template app with Astro Framework.
+- [ ] Test hierarchical Github Pages with template landing screens.
+- [ ] Setup basic app for 25 and identify link.
 - [ ] Complete [Hardware design](https://github.com/mattinew/xmas-cards/tree/main/25/HW).
 - [ ] Make the application 🔥
 - [ ] Enjoy 😎 and share with friends 🤡
