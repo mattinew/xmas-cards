@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/xmas-cards/25/SW', 
+  base: '/xmas-cards/',
   outDir: './dist'
 });
