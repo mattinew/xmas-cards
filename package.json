@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build:25": "cd 25/SW && npm run build && cd ../..",
-    "build": "build:25 && astro build && cpx 25/SW/dist/** dist/25/SW/",
+    "build": "npm run build:25 && astro build && cpx 25/SW/dist/** dist/25/SW/",
     "preview": "astro preview",
     "astro": "astro"
   },
