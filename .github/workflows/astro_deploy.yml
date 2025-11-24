@@ -16,7 +16,19 @@ permissions:
   id-token: write
 
 jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Delete Deployment Environment
+        uses: strumwolf/delete-deployment-environment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
+
   build:
+    needs: cleanup
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
