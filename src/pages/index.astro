@@ -1,3 +1,8 @@
+---
+import { Image } from 'astro:assets';
+import img25 from '../images/25.gif';
+---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -13,15 +18,12 @@
         justify-content: center;
         height: 100svh;
       }
-      .class25 {
-        background-image: url('25.gif');
-        background-size: 200px;
-        height: 200px;
-        width: 200px;
-      }
     </style>
   </head>
   <body>
-    <a class="class25" href="25/SW"></a>
+    <a href="25/SW">
+      <!-- `alt` is mandatory on the Image component -->
+      <Image src={img25} alt="" width="200" height="200" />
+    </a>
   </body>
 </html>
