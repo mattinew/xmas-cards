@@ -20,6 +20,22 @@ In this folder, all the details of the software project will be stored.
 - [ ] Evaluate animation with GIFs or in CSS.
 - [ ] Integrate a small terminal for interactivity.
 - [ ] Easter egg with prize if game in terminal is completed.
+- [ ] Inspiration:
+    - [Astro Theme Template](https://astro.build/themes/details/minimal-bento-like-portfolio/)
+    - [BasePaint](https://basepaint.xyz/)
+- [ ] Tentative palette: https://lospec.com/palette-list/lava-gb (to be extended with a couple more?)
+- [ ] Music for this project (tentative):
+    - https://www.youtube.com/watch?v=UK-6Ppym-lY
+    - https://www.youtube.com/watch?v=JOkuwbhMxbQ
+
+#### Software references
++ [The Ultimate Pixel Art Tutorial](https://www.youtube.com/watch?v=lfR7Qj04-UA&list=LL&index=9)
++ [Color Palettes on Lospec](https://lospec.com/)
++ [Piskel](https://www.piskelapp.com/)
++ [Pixel Art Book/Course](https://michafrar.gumroad.com/l/pixel-logic)
++ [Aseprite](https://www.aseprite.org/) \(~20$\)
+    + [Everything You Need to Know About ASEPRITE | Pixel Art Fundamentals](https://www.youtube.com/watch?v=Ep-_nJNHPc4)
+    + [Pixel Art Class - Tips & Scripts for Supercharging Your Aseprite Workflow](https://www.youtube.com/watch?v=hiMBVCFMj6E&list=LL&index=10)
 
 #### Application references
 + [Halloween 2025 PAC MAN](https://phaser.io/news/2025/10/pac-man-halloween-2025-edition).
