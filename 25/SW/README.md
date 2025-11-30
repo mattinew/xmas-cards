@@ -5,8 +5,10 @@ In this folder, all the details of the software project will be stored.
 
 - [x] Create new repository folder.
 - [x] Create a template app with Astro Framework.
-- [ ] Test hierarchical Github Pages with template landing screens.
-- [ ] Setup basic app for 25 and identify link.
+- [x] Test hierarchical Github Pages with template landing screens.
+    - Main link for all repo is: https://mattinew.github.io/xmas-cards/
+- [x] Setup basic app for 25 and identify link.
+    - Link is: https://mattinew.github.io/xmas-cards/25/SW/
 - [ ] Complete [Hardware design](https://github.com/mattinew/xmas-cards/tree/main/25/HW).
 - [ ] Make the application 🔥
 - [ ] Enjoy 😎 and share with friends 🤡
