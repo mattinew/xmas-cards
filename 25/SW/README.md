@@ -33,7 +33,7 @@ In this folder, all the details of the software project will be stored.
 + [Color Palettes on Lospec](https://lospec.com/)
 + [Piskel](https://www.piskelapp.com/)
 + [Pixel Art Book/Course](https://michafrar.gumroad.com/l/pixel-logic)
-+ [Pixel Art tutorials on X](https://x.com/saint11)
++ Pixel Art tutorials by Pedro Medeiros on [X](https://x.com/saint11) + [website](https://saint11.art/blog/pixel-art-tutorials/). 
 + [Aseprite](https://www.aseprite.org/) \(~20$\)
     + [Everything You Need to Know About ASEPRITE | Pixel Art Fundamentals](https://www.youtube.com/watch?v=Ep-_nJNHPc4)
     + [Pixel Art Class - Tips & Scripts for Supercharging Your Aseprite Workflow](https://www.youtube.com/watch?v=hiMBVCFMj6E&list=LL&index=10)
