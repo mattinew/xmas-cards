@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-import img25 from '../images/25.gif';
+import img25 from '../images/25.png';
 ---
 
 <html lang="en">
@@ -12,7 +12,7 @@ import img25 from '../images/25.gif';
     <style>
       body {
         margin: 0px;
-        background-color: rgb(2, 6, 41);
+        background: #004831;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -23,7 +23,7 @@ import img25 from '../images/25.gif';
   <body>
     <a href="25/SW">
       <!-- `alt` is mandatory on the Image component -->
-      <Image src={img25} alt="" width="200" height="200" />
+      <Image src={img25} alt="" width="230" height="200" />
     </a>
   </body>
 </html>
