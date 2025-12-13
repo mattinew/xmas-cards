@@ -24,9 +24,8 @@ In this folder, all the details of the software project will be stored.
     - [Astro Theme Template](https://astro.build/themes/details/minimal-bento-like-portfolio/)
     - [BasePaint](https://basepaint.xyz/)
 - [ ] Tentative palette: https://lospec.com/palette-list/lava-gb (to be extended with a couple more?)
-- [ ] Music for this project (tentative):
-    - https://www.youtube.com/watch?v=UK-6Ppym-lY
-    - https://www.youtube.com/watch?v=JOkuwbhMxbQ
+- [ ] Music for this project:
+    - [Frosty MC - Oh Tannenbaum](https://www.youtube.com/watch?v=UK-6Ppym-lY)
 
 #### Software references
 + [The Ultimate Pixel Art Tutorial](https://www.youtube.com/watch?v=lfR7Qj04-UA&list=LL&index=9)
