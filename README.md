@@ -1,2 +1,2 @@
 # XMAS cards
-Interactive Christmas cards repository 🎁
+Christmas cards repository 🎁
