@@ -24,11 +24,13 @@ import snd25 from '../assets/25.mp3';
       </div>
 
       <!-- Main -->
-      <main class="main pixel-box">
+      <main class="main">
+
         <audio id="snd25" src={snd25} preload="auto"></audio>
-        <a onclick="document.getElementById('snd25').play();">
-          <Image src={img25} alt="" quality="max" layout="full-width" />
-        </a>
+        <div class="pixel-box" onclick="document.getElementById('snd25').play();">
+            <Image src={img25} alt="" quality="max" layout="full-width" />
+        </div>
+
       </main>
 
       <!-- Footer -->
