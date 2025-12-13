@@ -24,7 +24,6 @@
 }
 
 body {
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,15 +62,15 @@ body {
 }
 
 .card {
-    aspect-ratio: 9 / 16; 
+    aspect-ratio: 1/2; 
     height: 95svh;
     max-width: 95svw;
     width: auto; 
     position: relative;
     /* --- */
-    row-gap: 1.5vh;
+    row-gap: 1vh;
     display: grid;
-    grid-template-rows: 1fr 11fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas: "area_header" "area_main" "area_footer";
 }
 
