@@ -1,64 +1,44 @@
 :root {
-    --pal_col01 : #4e1d4c;
-    --pal_col02 : #771d50;
-    --pal_col03 : #904d57;
-    --pal_col04 : #be6a62;
-    --pal_col05 : #ac2f45;
-    --pal_col06 : #e64639;
-    --pal_col07 : #ff8a32;
-    --pal_col08 : #f1b640;
-    --pal_col09 : #ffc5a3;
-    --pal_col10 : #686f9a;
-    --pal_col11 : #404974;
-    --pal_col12 : #283440;
-    --pal_col13 : #3d2935;
-    --pal_col14 : #291d2b;
-    --pal_col15 : #1b1f22;
-    --pal_col16 : #21181b;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+    --pal_col00 : #4e1d4c;
+    --pal_col01 : #771d50;
+    --pal_col02 : #904d57;
+    --pal_col03 : #be6a62;
+    --pal_col04 : #ac2f45;
+    --pal_col05 : #e64639;
+    --pal_col06 : #ff8a32;
+    --pal_col07 : #f1b640;
+    --pal_col08 : #ffc5a3;
+    --pal_col09 : #686f9a;
+    --pal_col10 : #404974;
+    --pal_col11 : #283440;
+    --pal_col12 : #3d2935;
+    --pal_col13 : #291d2b;
+    --pal_col14 : #1b1f22;
+    --pal_col15 : #21181b;
 }
 
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: var(--pal_col15); 
+    background-color: var(--pal_col11); 
     overflow: hidden;
-    color: white;
 }
 
 .header, .footer {
-    background-color: var(--pal_col04);
-    color: var(--pal_col02);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    justify-content: center;
 }
 
 .main {
     display: flex;
-    position: relative; 
-    align-items: center;
     justify-content: center;
     /* --- */
-    border-top: 2.0vh solid var(--pal_col05);
-    border-bottom: 2.0vh solid var(--pal_col05);
+    border-top: 2.0vh solid var(--pal_col04);
+    border-bottom: 2.0vh solid var(--pal_col04);
     border-left: 0vh;
     border-right: 0vh;
-    background: var(--pal_col16);
+    background: var(--pal_col15);
     border-style: ridge;
     box-shadow: 0 0 2vh #686f9a;
-}
-
-.pixel-box {
-    image-rendering: pixelated;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 .card {
@@ -68,7 +48,7 @@ body {
     width: auto; 
     position: relative;
     /* --- */
-    row-gap: 1vh;
+    row-gap: 0.5vh;
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas: "area_header" "area_main" "area_footer";
@@ -77,3 +57,11 @@ body {
 .header { grid-area: area_header;}
 .main   { grid-area: area_main;}
 .footer { grid-area: area_footer;}
+
+.pixel-box {
+    image-rendering: pixelated;
+}
+
+img {
+    width: 100%;
+}

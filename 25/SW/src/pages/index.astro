@@ -2,8 +2,11 @@
 import '../styles/global.css';
 
 import { Image } from 'astro:assets';
+
 import img25 from '../assets/25.gif';
 import snd25 from '../assets/25.mp3';
+
+import img_header from '../assets/header.gif';
 ---
 
 <html lang="en">
@@ -20,7 +23,7 @@ import snd25 from '../assets/25.mp3';
 
       <!-- Header -->
       <div class="header pixel-box">
-        header_tmp
+        <img src={img_header.src} alt=""/>
       </div>
 
       <!-- Main -->
