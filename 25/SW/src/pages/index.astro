@@ -7,6 +7,8 @@ import img25 from '../assets/25.gif';
 import snd25 from '../assets/25.mp3';
 
 import img_header from '../assets/header.gif';
+import img_main from '../assets/main.gif';
+import img_footer from '../assets/footer.gif';
 ---
 
 <html lang="en">
@@ -29,16 +31,20 @@ import img_header from '../assets/header.gif';
       <!-- Main -->
       <main class="main">
 
-        <audio id="snd25" src={snd25} preload="auto"></audio>
+        <!-- <audio id="snd25" src={snd25} preload="auto"></audio>
         <div class="pixel-box" onclick="document.getElementById('snd25').play();">
-            <Image src={img25} alt="" quality="max" layout="full-width" />
+          <Image src={img25} alt="" quality="max" layout="full-width" />
+        </div> -->
+
+        <div class="pixel-box">
+          <img src={img_main.src} alt=""/>
         </div>
 
       </main>
 
       <!-- Footer -->
       <div class="footer pixel-box">
-        footer_tmp
+        <img src={img_footer.src} alt=""/>
       </div>
 
     </div>

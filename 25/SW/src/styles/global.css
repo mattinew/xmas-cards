@@ -24,13 +24,8 @@ body {
     overflow: hidden;
 }
 
-.header, .footer {
-    justify-content: center;
-}
-
 .main {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
     /* --- */
     border-top: 2.0vh solid var(--pal_col04);
     border-bottom: 2.0vh solid var(--pal_col04);
@@ -48,18 +43,19 @@ body {
     width: auto; 
     position: relative;
     /* --- */
-    row-gap: 0.5vh;
+    row-gap: 1.5vh;
     display: grid;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "area_header" "area_main" "area_footer";
 }
 
-.header { grid-area: area_header;}
-.main   { grid-area: area_main;}
-.footer { grid-area: area_footer;}
+.header {grid-area: area_header;}
+.main   {grid-area: area_main;}
+.footer {grid-area: area_footer;}
 
 .pixel-box {
     image-rendering: pixelated;
+    display: flex;
 }
 
 img {
