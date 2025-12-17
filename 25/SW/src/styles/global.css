@@ -26,6 +26,7 @@ body {
 
 .card {
     image-rendering: pixelated;
+    position: relative;
     aspect-ratio: 1/2; 
     height: 95svh;
     max-width: 95svw;
@@ -41,18 +42,17 @@ body {
 .footer {grid-area: area_footer;}
 
 .main {
-    position: relative;
-    /* --- */
+    object-fit:cover;
+    display:block;
     border-top: 2.0vh solid var(--pal_col04);
     border-bottom: 2.0vh solid var(--pal_col04);
     border-left: 0vh;
     border-right: 0vh;
-    background: var(--pal_col15);
     border-style: ridge;
     box-shadow: 0 0 2vh #686f9a;
 }
 
-.header, .footer, .img_wrap {
+.header, .footer {
     display: flex;
     align-items: center;
     height: 100%;
@@ -63,6 +63,31 @@ body {
     height: auto;
 }
 
-.img_wrap img {
+.img_wrap, .img_wrap img {
     height: 100%;
+    z-index: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#id_img_play, #id_img_stop, #id_img_hi {
+    position: absolute;
+    left: 2%;
+    bottom: 14%;
+    right: auto;
+    height: 6%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#id_img_hi {
+    left: auto;
+    bottom: 14%;
+    right: 2%;
 }

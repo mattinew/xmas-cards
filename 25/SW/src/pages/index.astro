@@ -8,6 +8,9 @@ import snd25 from '../assets/25.mp3';
 
 import img_header from '../assets/header.gif';
 import img_main from '../assets/main.gif';
+import img_play from '../assets/play.gif';
+import img_stop from '../assets/stop.gif';
+import img_hi from '../assets/hi.gif';
 import img_footer from '../assets/footer.gif';
 ---
 
@@ -37,9 +40,16 @@ import img_footer from '../assets/footer.gif';
           <Image src={img25} alt="" quality="max" layout="full-width" />
         </div> -->
 
+        <!-- Main image -->
         <div class="img_wrap">
           <img src={img_main.src} alt=""/>
         </div>
+        
+        <img src={img_play.src} id="id_img_play" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_stop').classList.remove('hidden');document.getElementById('snd25').play();"/>
+        <img src={img_stop.src} id="id_img_stop" class="hidden" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_play').classList.remove('hidden');document.getElementById('snd25').pause();"/>
+        <a href="mailto:matti.new@gmail.com">
+          <img src={img_hi.src} id="id_img_hi" alt="" />
+        </a>
 
       </main>
 
