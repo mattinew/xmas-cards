@@ -6,6 +6,7 @@ import snd25 from '../assets/25.mp3';
 
 import img_header from '../assets/header.gif';
 import img_main from '../assets/main.gif';
+import img_main1 from '../assets/main1.gif';
 import img_play from '../assets/play.gif';
 import img_stop from '../assets/stop.gif';
 import img_hi from '../assets/hi.gif';
@@ -37,12 +38,13 @@ import img_footer from '../assets/footer.gif';
 
         <!-- Main image -->
         <div class="img_wrap">
-          <img src={img_main.src} alt=""/>
+          <img src={img_main1.src} alt="" id="id_img_main1"/>
+          <img src={img_main.src} alt=""class="hidden" id="id_img_main"/>
         </div>
 
         <!-- Interactive images and icons-->
-        <img src={img_play.src} id="id_img_play" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_stop').classList.remove('hidden');document.getElementById('snd25').play();"/>
-        <img src={img_stop.src} id="id_img_stop" class="hidden" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_play').classList.remove('hidden');document.getElementById('snd25').pause();"/>
+        <img src={img_play.src} id="id_img_play" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_stop').classList.remove('hidden');document.getElementById('snd25').play();document.getElementById('id_img_main').classList.remove('hidden');"/>
+        <img src={img_stop.src} id="id_img_stop" class="hidden" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_play').classList.remove('hidden');document.getElementById('snd25').pause();document.getElementById('id_img_main').classList.add('hidden');"/>
         <a href="mailto:matti.new@gmail.com">
           <img src={img_hi.src} id="id_img_hi" alt="" />
         </a>

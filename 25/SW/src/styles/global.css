@@ -42,8 +42,7 @@ body {
 .footer {grid-area: area_footer;}
 
 .main {
-    object-fit:cover;
-    display:block;
+    overflow: hidden;
     border-top: 2.0vh solid var(--pal_col04);
     border-bottom: 2.0vh solid var(--pal_col04);
     border-left: 0vh;
@@ -63,9 +62,14 @@ body {
     height: auto;
 }
 
-.img_wrap, .img_wrap img {
+.img_wrap {
+    position: relative;
     height: 100%;
-    z-index: 0;
+}
+
+.img_wrap img {
+    position: absolute;
+    height: 100%;
 }
 
 .hidden {
@@ -81,7 +85,7 @@ body {
     width: auto;
     object-fit: contain;
     display: block;
-    z-index: 2;
+    z-index: 1;
     cursor: pointer;
 }
 
