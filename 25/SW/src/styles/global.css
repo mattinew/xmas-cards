@@ -100,8 +100,6 @@ body {
     transition: transform 200ms ease;
 }
 
-#id_img_25:hover,
-#id_img_25:active,
-#id_img_25:focus-visible {
+#id_img_25:active {
     transform: translateX(20%) translateY(20%) scale(1.2) rotate(-5deg);
 }
