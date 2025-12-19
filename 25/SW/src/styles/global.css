@@ -30,7 +30,6 @@ body {
     aspect-ratio: 1/2; 
     height: 95svh;
     max-width: 95svw;
-    /* --- */
     row-gap: 1vh;
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
