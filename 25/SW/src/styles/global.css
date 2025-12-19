@@ -75,7 +75,7 @@ body {
     display: none !important;
 }
 
-#id_img_play, #id_img_stop, #id_img_hi, #id_img_25 {
+#id_img_play, #id_img_stop, #id_img_hi, #id_img_25, #id_img_fire {
     position: absolute;
     left: 2%;
     bottom: 14%;
@@ -105,4 +105,12 @@ body {
 
 #id_img_25:active {
     transform: translateX(20%) translateY(20%) scale(1.2) rotate(-5deg);
+}
+
+#id_img_fire {
+    left: auto;
+    bottom: 36.8%;
+    right: 4%;
+    height: 15%;
+    width: auto;
 }
