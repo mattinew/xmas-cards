@@ -9,7 +9,13 @@ In this folder, all the details of the hardware project will be stored.
   - Modify manually if necessary.
 - [x] Save `svg` and `png` files needed for PCB and gerbers.
 - [x] Create new Kicad project for PCB.
-- [x] Order PCB.
-  - Choice: [JLC PCBs](https://cart.jlcpcb.com/quote?plateType=1).
+- [x] Order PCB @ [JLC PCBs](https://cart.jlcpcb.com/quote?plateType=1).
 - [x] Wait...
-- [ ] Enjoy 😎
+- [x] Enjoy 😎
+
+
+#### Reminders:
+- QR code also works upside down, therefore I could have mirrored 25 logo so that lace would come from top left instead of bottom right.
+- Do not drill inside finder patterns otherwise QR does not work.
+- Do not have exposed copper QR otherwise QR does not work.
+
