@@ -75,7 +75,7 @@ body {
     display: none !important;
 }
 
-#id_img_play, #id_img_stop, #id_img_hi, #id_img_25, #id_img_fire {
+#id_img_play, #id_img_stop, #id_img_hi, #id_img_25, #id_img_fire, #id_img_volume {
     position: absolute;
     left: 2%;
     bottom: 14%;
@@ -92,6 +92,14 @@ body {
     left: auto;
     bottom: 14%;
     right: 2%;
+}
+
+#id_img_volume {
+    left: -3%;
+    right: auto;
+    bottom: 56%;
+    height: 15%;
+    cursor: auto;
 }
 
 #id_img_25 {

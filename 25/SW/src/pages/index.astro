@@ -10,6 +10,7 @@ import img_main1 from '../assets/main1.gif';
 import img_fire from '../assets/fire.gif';
 import img_play from '../assets/play.gif';
 import img_stop from '../assets/stop.gif';
+import img_volume from '../assets/volume.gif';
 import img_hi from '../assets/hi.gif';
 import img_footer from '../assets/footer.gif';
 ---
@@ -44,11 +45,12 @@ import img_footer from '../assets/footer.gif';
         </div>
         
         <!-- Interactive images and icons-->
-        <img src={img_play.src} id="id_img_play" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_stop').classList.remove('hidden');document.getElementById('snd25').play();document.getElementById('id_img_main').classList.remove('hidden');"/>
+        <img src={img_play.src} id="id_img_play" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_stop').classList.remove('hidden');document.getElementById('snd25').play();document.getElementById('id_img_main').classList.remove('hidden');document.getElementById('id_img_volume').classList.add('hidden');"/>
         <img src={img_stop.src} id="id_img_stop" class="hidden" alt="" onclick="this.classList.add('hidden'); document.getElementById('id_img_play').classList.remove('hidden');document.getElementById('snd25').pause();document.getElementById('id_img_main').classList.add('hidden');"/>
         <a href="mailto:matti.new@gmail.com">
           <img src={img_hi.src} id="id_img_hi" alt="" />
         </a>
+        <img src={img_volume.src} id="id_img_volume" alt="" />
         <img src={img25.src} id="id_img_25" alt="" />
         <img src={img_fire.src} id="id_img_fire" alt=""/>
 
